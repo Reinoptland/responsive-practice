@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  /* background-color: hotpink; */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.sub-title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.secondary-title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.tertiary-title {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.booking-option {
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.btn {
+  display: block;
+  width: 245px;
+  padding: 25px 0 25px 0;
+  margin: auto;
+}
+
+.image {
+  display: block;
+  margin: 24px auto 24px auto;
+  width: 100%;
+}
+
+source {
+  border: none;
+  display: none;
+}
+
+.address {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+hr {
+  margin: 12px 0 12px 0;
+}
+
+.open-times {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.page-header {
+  padding: 64px 24px 64px 24px;
+  background-color: black;
+  color: white;
+}
+
+.info {
+  padding: 24px;
+}
+
+.menu {
+  padding: 24px;
+  background-color: black;
+  color: white;
+}
+
+.booking {
+  padding: 24px;
+}
+
+.reservation {
+  padding: 24px;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  padding: 24px;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    /* justify-content: space-between; */
+  }
+
+  .image--menu-item {
+    width: 128px;
+    margin: 0;
+  }
+
+  .tertiary-title {
+    text-align: start;
+  }
+
+  .text--menu {
+    text-align: start;
+  }
+
+  .booking-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 130px;
+    padding: 97px;
+  }
+
+  .open-times,
+  .address {
+    text-align: start;
+  }
+
+  .booking {
+    padding: 97px;
+  }
+
+  .reservation {
+    padding: 97px;
+  }
+
+  .menu {
+    padding: 97px;
+  }
+
+  .info {
+    padding: 97px;
+  }
+
+  .page-header {
+    padding: 97px;
+  }
+}
